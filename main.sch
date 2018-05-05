@@ -9098,9 +9098,9 @@ www.irf.com&lt;p&gt;
 <label x="0" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PC2(ADC2PCINT10)"/>
-<wire x1="129.54" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
-<label x="134.62" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB7(XTAL2/TOSC2/PCINT7)"/>
+<wire x1="129.54" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="134.62" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9240,14 +9240,14 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="STATUS" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PB7(XTAL2/TOSC2/PCINT7)"/>
-<wire x1="129.54" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
-<label x="134.62" y="83.82" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="149.86" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <label x="55.88" y="154.94" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PD0(RXD/PCINT16)"/>
+<wire x1="129.54" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
+<label x="137.16" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
